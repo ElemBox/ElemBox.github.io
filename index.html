@@ -1,14 +1,32 @@
 <html lang="en">
 <head>
+    <script>
+        document.getElementById("steamList").style.visibility = "hidden";
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ElemBox</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
-    <button id="ElemSand">Sand</button>
-    <button id="ElemWater">Water</button>
-    <button id="ElemFire">Fire</button>
-    <button id="ElemEarth">Earth</button>
+    <button onclick="elem1('sand')" id="ElemSand">Sand</button>
+    <button onclick="elem1('water')" id="ElemWater">Water</button>
+    <button onclick="elem1('fire')" id="ElemFire">Fire</button>
+    <button onclick="elem1('earth')" id="ElemEarth">Earth</button>
+    <button onclick="elem2('sand')" id="ElemSand2">Sand</button>
+    <button onclick="elem2('water')" id="ElemWater2">Water</button>
+    <button onclick="elem2('fire')" id="ElemFire2">Fire</button>
+    <button onclick="elem2('earth')" id="ElemEarth2">Earth</button>
+    <button id="Mix">Mix</button>
+    <button id="Combine" onclick="combine()">Combine</button>
+    <h1 id="heading">Elements:</h1>
+    <ol id="elementList">
+        <li>Sand</li>
+        <li>Water</li>
+        <li>Fire</li>
+        <li>Earth</li>
+        <li id="steamList">Steam</li>
+    </ol> 
 </body>
 </html>

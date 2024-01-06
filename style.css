@@ -1,9 +1,69 @@
-head {
+body {
     background-color: rgb(36, 36, 36);
 }
 #ElemSand {
-    border-style: solid;
-    border-radius: 1mm;
-    border-color: rgb(255, 220, 105);
-    flood-color: rgb(255, 250, 150);
+    border-style: solid; border-radius: 1mm; border-width: 1mm; border-color: #ffdc69;
+    background-color: #c5a025;
+    font-size: 20; color: rgb(114, 91, 17);
+}
+#ElemWater {
+    border-style: solid; border-radius: 1mm; border-width: 1mm; border-color: rgb(28, 133, 202);
+    background-color: rgb(112, 255, 243);
+    font-size: 20; color: rgb(21, 54, 202);
+}
+#ElemFire {
+    border-style: solid; border-radius: 1mm; border-width: 1mm; border-color: rgb(231, 54, 31);
+    background-color: rgb(255, 112, 112);
+    font-size: 20; color: rgb(255, 23, 23);
+}
+#ElemEarth {
+    border-style: solid; border-radius: 1mm; border-width: 1mm; border-color: rgb(27, 155, 16);
+    background-color: rgb(173, 110, 16);
+    font-size: 20; color: rgb(135, 137, 146);
+}
+#Mix {
+    border-style: solid; border-radius: 1mm; border-width: 1mm; border-color: rgb(80, 80, 80);
+    background-color: rgb(190, 190, 190);
+    font-size: 20; color: rgb(80, 80, 80);
+    position: relative; right: 10.9cm; top: 2cm;
+}
+#Combine {
+    border-style: solid; border-radius: 1mm; border-width: 1mm; border-color: rgb(80, 80, 80);
+    background-color: rgb(190, 190, 190);
+    font-size: 20; color: rgb(80, 80, 80);
+    position: relative; right: 15cm; top: 2cm;
+}
+#ElemSand2 {
+    border-style: solid; border-radius: 1mm; border-width: 1mm; border-color: #ffdc69;
+    background-color: #c5a025;
+    font-size: 20; color: rgb(114, 91, 17);
+    position: relative; top: 1cm; right: 7.1cm;
+}
+#ElemWater2 {
+    border-style: solid; border-radius: 1mm; border-width: 1mm; border-color: rgb(28, 133, 202);
+    background-color: rgb(112, 255, 243);
+    font-size: 20; color: rgb(21, 54, 202);
+    position: relative; top: 1cm; right: 7.1cm;
+}
+#ElemFire2 {
+    border-style: solid; border-radius: 1mm; border-width: 1mm; border-color: rgb(231, 54, 31);
+    background-color: rgb(255, 112, 112);
+    font-size: 20; color: rgb(255, 23, 23);
+    position: relative; top: 1cm; right: 7.1cm;
+}
+#ElemEarth2 {
+    border-style: solid; border-radius: 1mm; border-width: 1mm; border-color: rgb(27, 155, 16);
+    background-color: rgb(173, 110, 16);
+    font-size: 20; color: rgb(135, 137, 146);
+    position: relative; top: 1cm; right: 7.1cm;
+}
+#heading {  
+    color:rgb(95, 104, 103); font-size: 20;
+    position: relative; left: 1; top: 1.8cm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#elementList {
+    color:rgb(95, 104, 103); font-size: 20; font: 30000;
+    position: relative; left: -0.4cm; top: 1.3cm;
+    font-family: Arial, Helvetica, sans-serif; font-weight: bold;
 }
