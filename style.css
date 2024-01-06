@@ -1,3 +1,9 @@
 head {
-    background-color: aqua;
+    background-color: rgb(36, 36, 36);
+}
+#ElemSand {
+    border-style: solid;
+    border-radius: 1mm;
+    border-color: rgb(255, 220, 105);
+    fill: rgb(255, 250, 150);
 }
